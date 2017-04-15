@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C91278E1E9DF79400D58D85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C91278D1E9DF79400D58D85 /* AppDelegate.swift */; };
+		8C9127901E9DF79400D58D85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C91278F1E9DF79400D58D85 /* ViewController.swift */; };
+		8C9127931E9DF79400D58D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9127911E9DF79400D58D85 /* Main.storyboard */; };
+		8C9127951E9DF79400D58D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9127941E9DF79400D58D85 /* Assets.xcassets */; };
+		8C9127981E9DF79400D58D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9127961E9DF79400D58D85 /* LaunchScreen.storyboard */; };
+		8C9127A01E9DF88C00D58D85 /* DailyWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C91279F1E9DF88C00D58D85 /* DailyWeatherTableViewCell.swift */; };
+		90A57B1F5506CFD700D34D8D /* Pods_WeatherTestYahoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4A545C2EEA50E0E2F7BCDE /* Pods_WeatherTestYahoo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E4A545C2EEA50E0E2F7BCDE /* Pods_WeatherTestYahoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherTestYahoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C91278A1E9DF79400D58D85 /* WeatherTestYahoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherTestYahoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C91278D1E9DF79400D58D85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C91278F1E9DF79400D58D85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C9127921E9DF79400D58D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C9127941E9DF79400D58D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C9127971E9DF79400D58D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C9127991E9DF79400D58D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C91279F1E9DF88C00D58D85 /* DailyWeatherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyWeatherTableViewCell.swift; sourceTree = "<group>"; };
+		C7F2D186E041ADD58A2F9748 /* Pods-WeatherTestYahoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherTestYahoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherTestYahoo/Pods-WeatherTestYahoo.debug.xcconfig"; sourceTree = "<group>"; };
+		E424CE35B7E7AED0385E1E28 /* Pods-WeatherTestYahoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherTestYahoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherTestYahoo/Pods-WeatherTestYahoo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C9127871E9DF79400D58D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A57B1F5506CFD700D34D8D /* Pods_WeatherTestYahoo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57D8CCC73CAAD3C66076FC3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E4A545C2EEA50E0E2F7BCDE /* Pods_WeatherTestYahoo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C9127811E9DF79400D58D85 = {
+			isa = PBXGroup;
+			children = (
+				8C91278C1E9DF79400D58D85 /* WeatherTestYahoo */,
+				8C91278B1E9DF79400D58D85 /* Products */,
+				DB3F6D688DE5136897D94FC8 /* Pods */,
+				57D8CCC73CAAD3C66076FC3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C91278B1E9DF79400D58D85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C91278A1E9DF79400D58D85 /* WeatherTestYahoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C91278C1E9DF79400D58D85 /* WeatherTestYahoo */ = {
+			isa = PBXGroup;
+			children = (
+				8C91279F1E9DF88C00D58D85 /* DailyWeatherTableViewCell.swift */,
+				8C91278D1E9DF79400D58D85 /* AppDelegate.swift */,
+				8C91278F1E9DF79400D58D85 /* ViewController.swift */,
+				8C9127911E9DF79400D58D85 /* Main.storyboard */,
+				8C9127941E9DF79400D58D85 /* Assets.xcassets */,
+				8C9127961E9DF79400D58D85 /* LaunchScreen.storyboard */,
+				8C9127991E9DF79400D58D85 /* Info.plist */,
+			);
+			path = WeatherTestYahoo;
+			sourceTree = "<group>";
+		};
+		DB3F6D688DE5136897D94FC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7F2D186E041ADD58A2F9748 /* Pods-WeatherTestYahoo.debug.xcconfig */,
+				E424CE35B7E7AED0385E1E28 /* Pods-WeatherTestYahoo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C9127891E9DF79400D58D85 /* WeatherTestYahoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C91279C1E9DF79400D58D85 /* Build configuration list for PBXNativeTarget "WeatherTestYahoo" */;
+			buildPhases = (
+				9242BB98ACF10C378B4C1661 /* [CP] Check Pods Manifest.lock */,
+				8C9127861E9DF79400D58D85 /* Sources */,
+				8C9127871E9DF79400D58D85 /* Frameworks */,
+				8C9127881E9DF79400D58D85 /* Resources */,
+				7B21BE5667463FF0E66C446C /* [CP] Embed Pods Frameworks */,
+				1F60C9428067B7B1524E8A66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherTestYahoo;
+			productName = WeatherTestYahoo;
+			productReference = 8C91278A1E9DF79400D58D85 /* WeatherTestYahoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C9127821E9DF79400D58D85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = punit;
+				TargetAttributes = {
+					8C9127891E9DF79400D58D85 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8C9127851E9DF79400D58D85 /* Build configuration list for PBXProject "WeatherTestYahoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C9127811E9DF79400D58D85;
+			productRefGroup = 8C91278B1E9DF79400D58D85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C9127891E9DF79400D58D85 /* WeatherTestYahoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C9127881E9DF79400D58D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9127981E9DF79400D58D85 /* LaunchScreen.storyboard in Resources */,
+				8C9127951E9DF79400D58D85 /* Assets.xcassets in Resources */,
+				8C9127931E9DF79400D58D85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F60C9428067B7B1524E8A66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherTestYahoo/Pods-WeatherTestYahoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B21BE5667463FF0E66C446C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherTestYahoo/Pods-WeatherTestYahoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9242BB98ACF10C378B4C1661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C9127861E9DF79400D58D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9127901E9DF79400D58D85 /* ViewController.swift in Sources */,
+				8C91278E1E9DF79400D58D85 /* AppDelegate.swift in Sources */,
+				8C9127A01E9DF88C00D58D85 /* DailyWeatherTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C9127911E9DF79400D58D85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C9127921E9DF79400D58D85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C9127961E9DF79400D58D85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C9127971E9DF79400D58D85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C91279A1E9DF79400D58D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C91279B1E9DF79400D58D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C91279D1E9DF79400D58D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F2D186E041ADD58A2F9748 /* Pods-WeatherTestYahoo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeatherTestYahoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.punit.WeatherTestYahoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8C91279E1E9DF79400D58D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E424CE35B7E7AED0385E1E28 /* Pods-WeatherTestYahoo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeatherTestYahoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.punit.WeatherTestYahoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C9127851E9DF79400D58D85 /* Build configuration list for PBXProject "WeatherTestYahoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C91279A1E9DF79400D58D85 /* Debug */,
+				8C91279B1E9DF79400D58D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C91279C1E9DF79400D58D85 /* Build configuration list for PBXNativeTarget "WeatherTestYahoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C91279D1E9DF79400D58D85 /* Debug */,
+				8C91279E1E9DF79400D58D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C9127821E9DF79400D58D85 /* Project object */;
+}
